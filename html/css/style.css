@@ -1,9 +1,10 @@
 :root {
---main-color: #636363;
---second-color:#343434;
---third-color:#f1f1f1;
---fourth-color:#bfbfbf;
-}
+    --main-color: #636363;
+    --second-color:#343434;
+    --third-color:#f1f1f1;
+    --fourth-color:#bfbfbf;
+    --fifth-color:#a1def2;
+    }
 *{
 	margin: 0;
 	padding: 0;
