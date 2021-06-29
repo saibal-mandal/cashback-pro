@@ -692,7 +692,7 @@ figure {
 }
 /*===========================main-content===============================*/
 .main-content{
-	background: var(--fourth-color);
+	background: var(--third-color);
 }
 .main-content .content-box{
 	margin-bottom: 13px;
