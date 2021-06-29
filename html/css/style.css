@@ -801,7 +801,7 @@ footer .footer-title:before {
 	-moz-transition: 0.5s;
 }
 .footer-box .navigation ul li a:hover {
-	color: var(--third-color);
+	color: var(--fifth-color);
 	text-decoration: none;
 }
 .newsletter-box{
