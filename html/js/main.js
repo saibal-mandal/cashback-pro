@@ -105,10 +105,10 @@ $('#owldemo3').owlCarousel({
             0: {
                 items: 1
             },
-            768: {
+            600: {
                 items: 2
             },
-            992: {
+            900: {
                 items: 3
             },
             1025: {
@@ -129,10 +129,10 @@ $('#owldemo4').owlCarousel({
             0: {
                 items: 1
             },
-            768: {
+            600: {
                 items: 2
             },
-            992: {
+            900: {
                 items: 3
             },
             1025: {
@@ -153,10 +153,12 @@ $('#owldemo5').owlCarousel({
             0: {
                 items: 1
             },
+            400: {
+                items: 2
+            },
             500: {
                 items: 3
             },
-            
             768: {
                 items: 4
             },
