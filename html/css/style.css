@@ -861,7 +861,7 @@ footer .footer-title:before {
   -moz-transition: 0.5s;
 }
 .newsletter-box .subscribe-form button:hover {
-	background:var(--third-color); 
+	background:var(--fifth-color); 
 }
 .payment {
     margin-bottom: 20px;
