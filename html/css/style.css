@@ -1828,7 +1828,7 @@ footer .footer-title:before {
 }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
 .caption h2, .caption h2 span {
     font-size: 24px;
 }
@@ -1837,6 +1837,9 @@ footer .footer-title:before {
     font-size: 15px;
 }
 .top-header .top-left ul li {
-    margin-right: 9px;
+    margin-right: 8px;
+}
+.top-header .top-left ul li a {
+    font-size: 11px;
 }
 }
