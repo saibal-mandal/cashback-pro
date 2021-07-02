@@ -178,7 +178,7 @@ $('#owldemo6').owlCarousel({
         margin:10,
         nav: true,
         navText : ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 6000,
         smartSpeed: 2550,
         dots: false,
