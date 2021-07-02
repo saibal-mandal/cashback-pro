@@ -186,7 +186,7 @@ $('#owldemo6').owlCarousel({
             0: {
                 items: 1
             },
-            600: {
+            575: {
                 items: 2
             },
             900: {
@@ -200,3 +200,9 @@ $('#owldemo6').owlCarousel({
             } 
         }
     });
+
+// modal pop up
+$(window).load(function(){        
+   $('#myModal').modal('show');
+    }); 
+
