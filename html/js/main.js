@@ -170,3 +170,33 @@ $('#owldemo5').owlCarousel({
             }
         }
     });
+
+
+// owl-carousel blog
+$('#owldemo6').owlCarousel({
+        loop: true,
+        margin:10,
+        nav: true,
+        navText : ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
+        autoplay: false,
+        autoplayTimeout: 6000,
+        smartSpeed: 2550,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            900: {
+                items: 3
+            },
+            1025: {
+                items: 4
+            },
+           1100: {
+                items: 5
+            } 
+        }
+    });
