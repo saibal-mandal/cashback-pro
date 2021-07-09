@@ -548,91 +548,7 @@ hr {
     border-radius: 0;
 }
 
-/*===========================recom-sec===============================*/
-.recom-sec{
-    background: var(--third-color);
-}
-.recom-sec h2 {
-    font-size: 34px;
-    font-weight: 300;
-    color: #535353;
-    margin-bottom: 20px;
-}
-.recom-sec .re-box {
-    margin-bottom: 30px;
-    text-align: center;
-    display: inline-block;
-}
-.recom-sec .re-box .re-img{
-    background: #f7f7f7;
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
-}
-.recom-sec .re-box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-/*.recom-sec .re-box .re-txt{
-    display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical; 
-  width: 100%;
-  overflow: hidden;
-}
-.recom-sec .re-box h4{
-    font-size: 15px;
-    font-weight: 300;
-    color: #737373;
-    padding-top: 15px;
-}*/
 
-.recom-sec .single_product {
-    position: relative;
-    margin-bottom: 30px;
-    
-}
-.single_product {
-    background: #ffffff;
-}
-figure {
-    padding: 0;
-    margin: 0;
-}
-.product_thumb {
-    position: relative;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-}
-.product_thumb img {
-    max-width: 100%;
-    height: auto;
-}
-.single_product:hover .product_thumb a.secondary_img {
-    opacity: 1;
-    visibility: visible;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-}
-.product_thumb a.secondary_img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    width: 100%;
-    height: 100%;
-}
-.single_product .re-txt a{
-    font-size: 15px;
-    font-weight: 300;
-    color: #737373 !important;
-    padding: 15px 0;
-    display: block;
-}
 /*===========================trustpay===============================*/
 
 .trustpay-box {
@@ -681,6 +597,7 @@ figure {
 .info-sec{
     position: relative;
     margin: 0;
+    background: #f7f7f7;
 }
 .info-sec .box{
     display: flex;
@@ -1361,12 +1278,7 @@ footer .footer-title:before {
 .view-btn a:hover{
     background: var(--main-color);
 }
-/*===========popular-pro=============*/
-.popular-pro{
-    position: relative;
-    margin: 0;
-    background: #fbfbfb;
-}
+
 /*====================safe-sec=================*/
 .safe-sec{
     margin: 0;
@@ -3804,9 +3716,7 @@ section.cotact-sec{
 .pro-box .pro-img img {
     height: 530px;
 }
-.recom-sec h2 {
-    font-size: 36px;
-}
+
 .advertise .cms-block {
     width: 60%;
     left: 0;
@@ -3855,15 +3765,7 @@ section.cotact-sec{
 .pro-box .pro-img img {
     height: 300px;
 }
-.recom-sec h2 {
-    font-size: 23px;
-}
-.recom-sec .re-box {
-    width: 100%;
-}
-.recom-sec .re-box img {
-    height: 220px;
-}
+
 .info-sec .box h4 {
     font-size: 16px;
     line-height: 20px;

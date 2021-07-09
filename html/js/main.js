@@ -92,54 +92,7 @@ $('#owldemo2').owlCarousel({
             }
         }
     });
-// owl-carousel new product
-$('#owldemo3').owlCarousel({
-        loop: true,
-        nav: true,
-        navText : ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
-        autoplay: true,
-        autoplayTimeout: 4500,
-        smartSpeed: 1950,
-        dots: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            900: {
-                items: 3
-            },
-            1025: {
-                items: 4
-            }
-        }
-    });
-// owl-carousel Popular Products
-$('#owldemo4').owlCarousel({
-        loop: true,
-        nav: true,
-        navText : ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
-        autoplay: true,
-        autoplayTimeout: 6000,
-        smartSpeed: 2550,
-        dots: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            900: {
-                items: 3
-            },
-            1025: {
-                items: 4
-            }
-        }
-    });
+
 
 // owl-carousel Popular brands
 $('#owldemo5').owlCarousel({
