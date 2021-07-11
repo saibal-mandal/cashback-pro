@@ -2490,32 +2490,11 @@ section.cotact-sec{
     margin-bottom: 6px;
 }
 
-.product-details .pd-title span {
-    display: block;
-    font-size: 12px;
-    color: #b2b2b2;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
-    line-height: 23px;
-}
-
 .product-details .pd-title h3 {
     color: var(--main-color);
     font-weight: 700;
 }
 
-/*.product-details .pd-title .heart-icon {
-    color: var(--main-color);
-    font-size: 18px;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-*/
-.product-details .pd-rating {
-    margin-bottom: 10px;
-}
 
 .product-details .pd-rating i {
     font-size: 12px;
