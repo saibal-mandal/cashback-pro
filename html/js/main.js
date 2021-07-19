@@ -160,4 +160,10 @@ $(window).load(function(){
     }); 
 
 
+
+// let component = document.querySelector('ul');
+// component.addEventListener('click',()=>{
+//      component.classList.toggle('active');  
+// })
+
     
