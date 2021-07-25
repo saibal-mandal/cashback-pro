@@ -3166,7 +3166,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(204,242,255,1) 10
    top: 0; 
    transition-delay: 1s;
 }*/
-.navbar-toggler {
+/*.navbar-toggler {
     position: absolute;
     width: 40px;
     height: 30px;
@@ -3236,7 +3236,154 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(204,242,255,1) 10
 }
 .main-header .navbar-expand-lg .navbar-nav .nav-item.active:after, .main-header .navbar-expand-lg .navbar-nav .nav-item:hover::after{
     display: none;
+}*/
+
+/*---------------------------*/
+.dScroll{
+    height:100%;
+    overflow: hidden;
 }
+.nav-toggle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    height: 2rem;
+    right: 0;
+    position: absolute;
+    top: .55rem;
+    width: 2rem;
+    z-index: 99999;
+    border-color: transparent;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.nav-toggle:hover {
+    opacity: 0.8;
+}
+.nav-toggle .nav-toggle-bar, .nav-toggle .nav-toggle-bar::after, 
+.nav-toggle .nav-toggle-bar::before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #fff;
+    content: '';
+    padding: 2px 0;
+    width: 100%;
+    border-radius: 10px;
+}
+.nav-toggle .nav-toggle-bar {
+    margin-top: 0;
+}
+.nav-toggle .nav-toggle-bar::after {
+    margin-top: 12px;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+}
+.nav-toggle .nav-toggle-bar::before {
+    margin-top: -12px;
+    width: 60%;
+    right: 0;
+    top: 0;
+}
+.nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
+    margin-top: 0;
+}
+.nav-toggle.expanded .nav-toggle-bar {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.nav-toggle.expanded .nav-toggle-bar::after {
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin: 5px 0 0 7px;
+}
+.nav-toggle.expanded .nav-toggle-bar::before {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin: -8px 6px 0px 0;
+}
+.bar-collapse {
+    -webkit-transition: left 0.6s ease;
+    -moz-transition: left 0.6s ease;
+    -ms-transition: left 0.6s ease;
+    -o-transition: left 0.6s ease;
+    transition: left 0.6s ease;
+    background: rgb(255 255 255 / 1.0);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    height: 100vh;
+    position: fixed;
+    left: -100%;
+    padding: 15px 0;
+    top: 0 !important;
+    width: 60%;
+    z-index: 9999;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: block !important;
+    border-bottom: 1px solid rgb(0 0 0 / 0.15);
+}
+.bar-collapse .header-btn {
+    margin-top: 25px;
+}
+.bar-collapse .header-btn .button {
+    margin-left: 0;
+}
+.bar-collapse.expanded2 li, .bar-collapse.expanded2 li.active {
+    background: transparent;
+    margin: 0;
+    padding: 10px 0;
+    margin-bottom: 2px;
+    border-bottom: 1px solid rgb(0 0 0 / 0.15);
+}
+.bar-collapse.expanded2 li:last-child{
+    border-bottom: 0 !important;
+}
+.bar-collapse.expanded2 li a:hover {
+    border-bottom: 0px;
+    color: var(--main-color);
+}
+.bar-collapse.expanded2 navbar-nav{
+    flex-direction: column !important;
+}
+.bar-collapse.expanded2 li a {
+    color: #333 !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+}
+.bar-collapse.expanded2 {
+    -webkit-transition: left 0.6s ease;
+    -moz-transition: left 0.6s ease;
+    -ms-transition: left 0.6s ease;
+    -o-transition: left 0.6s ease;
+    transition: left 0.6s ease;
+    left: 0rem;
+    box-shadow: 0 0px 10px 1px #565656;
+    padding: 20px;
+}
+
+/*------------------------------*/
+.main-header .navbar-expand-lg .dropdown-menu {
+    background: #f3f3f3;
+    padding: 10px 20px;
+}
+
+
 
 .info-sec .box, .footer-box {
     margin-bottom: 30px;
