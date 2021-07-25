@@ -3347,7 +3347,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(204,242,255,1) 10
     background: transparent;
     margin: 0;
     padding: 10px 0;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     border-bottom: 1px solid rgb(0 0 0 / 0.15);
 }
 .bar-collapse.expanded2 li:last-child{
@@ -3362,9 +3362,9 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(204,242,255,1) 10
 }
 .bar-collapse.expanded2 li a {
     color: #333 !important;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
-    padding: 0 0 15px 0;
+    padding: 0 0 5px 0;
 }
 .bar-collapse.expanded2 {
     -webkit-transition: left 0.6s ease;
@@ -3381,10 +3381,16 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(204,242,255,1) 10
 .main-header .navbar-expand-lg .dropdown-menu {
     background: #f3f3f3;
     padding: 10px 20px;
+    margin: 10px 0;
 }
 
-
-
+.main-header .megamenu h6.list-header {
+    color: var(--second-color);
+}
+.main-header .megamenu ul li a {
+    font-size: 14px;
+    padding: 5px 45px 5px 10px;
+}
 .info-sec .box, .footer-box {
     margin-bottom: 30px;
 }
